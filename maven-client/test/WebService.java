@@ -14,6 +14,6 @@ public class WebService {
     public void testClient2(){
         MyServiceImplService service=new MyServiceImplService();
         IMyService ms=service.getMyServiceImplPort();
-        System.out.println(ms.add(3,5));
+        System.out.println(ms.minus(20,5));
     }
 }
