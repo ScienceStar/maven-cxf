@@ -31,7 +31,7 @@ public class MyServiceImplService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("file:/E:/workspace/maven-cxf/src/main/webapp/WEB-INF/META-INF/mywsdl.wsdl");
+            url = new URL("file:/E:/workspace/maven-cxf/META-INF/mywsdl.wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
