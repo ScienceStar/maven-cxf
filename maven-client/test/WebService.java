@@ -15,6 +15,5 @@ public class WebService {
         MyServiceImplService service=new MyServiceImplService();
         IMyService ms=service.getMyServiceImplPort();
         System.out.println(ms.minus(20,5));
-        System.out.println("运算结束......................!");
     }
 }
